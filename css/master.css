@@ -1,0 +1,31 @@
+html body {
+  font-family: sans-serif;
+  background: #ccc;
+  color: #444;
+}
+
+#logo-image {
+  margin: -130px;
+  padding: -10px;
+  transform: scale(0.5);
+}
+
+.logo-container {
+  margin: 0;
+  padding: 0;
+  height: 270px;
+  width: 100%;
+  margin-bottom: -50px;
+}
+
+.container {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.outer {
+  max-width: 1400px
+}
